@@ -8,7 +8,7 @@ import 'package:map_view/map_view.dart';
 /// - Static Maps API
 /// - Android Maps API
 /// - iOS Maps API
-var API_KEY = "<your_api_key>";
+const API_KEY = "<your_api_key>";
 
 void main() {
   MapView.setApiKey(API_KEY);
